@@ -1,0 +1,33 @@
+<div class="container div row">
+    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+        <div class="row g-3 mt-4">
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <label for="" class="form-label">Task Name</label>
+                <input name="taskname" [(ngModel)]="taskname" type="text" class="form-control">
+            </div>
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <label for="" class="form-label">Description</label>
+                <textarea name="description" [(ngModel)]="description" id="" cols="30" rows="10" class="form-control"></textarea>
+            </div>
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <label for="" class="form-label">Task date</label>
+                <input name="taskdate" [(ngModel)]="taskdate" type="date" name="" id="" class="form-control">
+            </div>
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <label for="" class="form-label">Complete Date</label>
+                <input name="completedate" [(ngModel)]="completedate" type="date" name="" id="" class="form-control">
+            </div>
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <label for="" class="form-label">Task Staus</label>
+                <input name="taskstatus" [(ngModel)]="taskstatus" type="text" class="form-control">
+            </div>
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <label for="" class="form-label">Employee code</label>
+                <input name="empid" [(ngModel)]="empid" type="text" class="form-control">
+            </div>
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <button (click)="readValues()" class="btn btn-success">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
