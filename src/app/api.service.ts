@@ -14,4 +14,5 @@ export class ApiService {
   addTask=(data:any)=>{
     return this.http.post("http://localhost:8080/addtask",data)
   }
+  
 }

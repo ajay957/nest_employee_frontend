@@ -9,7 +9,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AdminnavbarComponent } from './adminnavbar/adminnavbar.component';
 import { AddemployeeComponent } from './addemployee/addemployee.component';
-import { AddtaskComponent } from './addtask/addtask.component'
+import { AddtaskComponent } from './addtask/addtask.component';
+import { UserloginComponent } from './userlogin/userlogin.component'
 
 const myRoute:Routes=[
   {
@@ -32,7 +33,8 @@ const myRoute:Routes=[
     AdminloginComponent,
     AdminnavbarComponent,
     AddemployeeComponent,
-    AddtaskComponent
+    AddtaskComponent,
+    UserloginComponent
   ],
   imports: [
     BrowserModule,
